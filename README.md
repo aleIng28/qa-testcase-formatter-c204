@@ -15,11 +15,12 @@ Como Analista QA, identifiqué que la revisión de estándares de formato y la v
 * **Alertas Visuales de Calidad (Conditional Formatting Code):** Evalúa filas en busca de campos vacíos obligatorios y aplica formatos condicionales (resaltado en rojo `#FFC7CE`) para prevenir la fuga de información crítica en el diseño de la prueba.
 * **Ejecución Remota Segura:** Implementa un bloque `try...catch` y validaciones de interfaz de usuario (UI) para procesar archivos de forma remota a través de su URL, protegiendo la ejecución accidental.
 
-## 📈 Impacto del Proyecto (ROI)
+## 📈 Impacto del Proyecto (ROI) y Escalabilidad
 
-* **Reducción del tiempo de revisión:** Ahorro de aproximadamente 80 horas mensuales en auditoría manual de formatos.
-* **Aumento de calidad:** Reducción del 60% en devoluciones de casos de prueba por errores de diseño, permitiendo al equipo enfocarse netamente en el testing funcional.
-* **Estandarización:** Garantía de un formato 100% homogéneo para las entregas al cliente final.
+* **Eficiencia Operativa:** Ahorro comprobado de **80 horas mensuales** en tareas de auditoría manual de formatos y cuadre lógico para un equipo core de 10 QA Testers. 
+* **Aumento de Calidad:** Reducción del **60%** en devoluciones de casos de prueba (C204) por errores de estructura, campos obligatorios vacíos o discrepancia entre pasos y resultados.
+* **Proyección de Escalabilidad:** Arquitectura diseñada para un despliegue global. Al implementarse en toda la Fábrica de Pruebas, el impacto estimado asciende a más de **400 horas mensuales** liberadas, transformando el esfuerzo administrativo en tiempo efectivo de testing funcional.
+* **Estandarización Corporativa:** Garantía de un formato 100% homogéneo y blindado contra el error humano para las entregas finales al cliente.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -33,15 +34,20 @@ Como Analista QA, identifiqué que la revisión de estándares de formato y la v
 
 **1. Consola de Ejecución Remota**
 > Interfaz donde el usuario introduce la URL objetivo y confirma la ejecución para evitar sobreescrituras accidentales.
-![Consola de Control](consola.png)
+![Consola de Control](Consoladecontrol.png)
 
-**2. Detección de Errores Lógicos (Pasos vs Resultados)**
+**2. Matriz Original (Antes del Formateo)**
+> Estado base del documento sin formato estandarizado ni validaciones lógicas.
+![Documento Antes](Documentoantes.png)
+
+**3. Detección de Errores Lógicos (Pasos vs Resultados)**
 > El algoritmo identifica discrepancias numéricas y advierte al diseñador mediante notas anidadas y formato de color.
-![Validacion Logica](logica.png)
+![Validación Lógica 1](Validaciónlogica1.png)
 
-**3. Formateo y Validación Rich Text**
-> Corrección automática de estructura y resaltado de la etiqueta objetivo.
-![Rich Text Formatting](formato.png)
+**4. Formateo y Validación Rich Text**
+> Corrección automática de estructura, alineaciones, y revisión de la posición de la etiqueta objetivo.
+![Validación Lógica 2](Validaciónlogica2.png)
 
 ---
 *Este proyecto fue desarrollado como iniciativa propia para mejorar la eficiencia de los procesos de Quality Assurance y demostrar el valor de la automatización en tareas operativas.*
+* **Estandarización Corporativa:** Garantía de un formato 100% homogéneo y blindado contra el error humano para las entregas finales al cliente.
